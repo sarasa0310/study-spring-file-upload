@@ -1,0 +1,16 @@
+logging:
+  level:
+    org:
+      apache:
+        coyote:
+#          http11: debug  # HTTP 요청 메시지 확인 가능
+
+spring:
+  servlet:
+    multipart:
+      enabled: true  # multipart 처리 켜기/끄기
+      max-file-size: 2MB  # 단일 파일 최대 사이즈 변경
+      max-request-size: 20MB  # 전체 요청 최대 사이즈 변경
+
+file:
+  dir: /Users/mac/Desktop/inflearn/spring/mvc2/upload/file/  # 파일 업로드 경로 커스텀 설정
