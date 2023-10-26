@@ -13,4 +13,4 @@ spring:
       max-request-size: 20MB  # 전체 요청 최대 사이즈 변경
 
 file:
-  dir: /Users/mac/Desktop/inflearn/spring/mvc2/upload/file/  # 파일 업로드 경로 커스텀 설정
+  dir: /Users/mac/Desktop/inflearn/spring/mvc2/upload/store/  # 파일 업로드 경로 커스텀 설정
